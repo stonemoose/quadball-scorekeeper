@@ -1,5 +1,6 @@
 <script>
 	import Counter from '$lib/Counter.svelte';
+	import PenaltyCards from '$lib/PenaltyCards.svelte';
 	import Timer from '$lib/Timer.svelte';
 	import FlagCatch from '$lib/flag-catch.svelte';
 </script>
@@ -14,6 +15,7 @@
 	<Timer />
 	<Counter />
 	<Counter />
+	<PenaltyCards />
 </section>
 
 <style>
